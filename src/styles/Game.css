@@ -1,0 +1,7 @@
+#Game {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  left: 10%;
+  right: 10%;
+}

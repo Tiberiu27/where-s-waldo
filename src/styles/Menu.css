@@ -1,0 +1,12 @@
+#menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 70px;
+    z-index: 2;
+}
+
+#menu > button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}

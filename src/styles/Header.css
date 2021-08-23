@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+    height: 100px;
+}
+
+#chars-array {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-inline: 50px;
+}
+
+#chars-array > p {
+    font-size: 30px;
+
+}
+
+header > #leaderboard-btn {
+    align-self: center;
+    height: 50%;
+    background-color: transparent;
+}

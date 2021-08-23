@@ -1,0 +1,27 @@
+#signin-popup {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: -50%;
+    top: -50%;
+    z-index: 3;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#signin-popup > p {
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#signin-popup > #button-container > button {
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
